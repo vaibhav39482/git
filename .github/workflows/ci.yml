@@ -1,0 +1,15 @@
+name: Example Action with Email
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: vaibhav.deshmukh@gramener.com
+        run: echo "Hello, world!"
+
